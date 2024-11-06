@@ -23,6 +23,7 @@
     <ClCompile Include="program1_2.c" />
     <ClCompile Include="program2_1.c" />
     <ClCompile Include="program2_2.c" />
+    <ClCompile Include="program2_3.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main() {
+void main1_2() {
     setlocale(LC_ALL, "ru_RU");
     int k, h, m, s;
 
