@@ -5,7 +5,7 @@
 #define a 1.3
 #define b 6.5
 
-void main() {
+void main2_3() {
     setlocale(LC_ALL, "ru_RU");
     double t, z;
 
