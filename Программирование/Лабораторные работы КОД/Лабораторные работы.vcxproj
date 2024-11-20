@@ -27,6 +27,8 @@
     <ClCompile Include="program3_1.c" />
     <ClCompile Include="program3_2.c" />
     <ClCompile Include="program3_3.c" />
+    <ClCompile Include="program4_1.c" />
+    <ClCompile Include="program_test.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
