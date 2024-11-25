@@ -4,7 +4,11 @@
 
 #define PI 3.14159265359
 
+<<<<<<< Updated upstream
 int main0() {
+=======
+int maintest() {
+>>>>>>> Stashed changes
     setlocale(LC_ALL, "RUS");
 
     float x, y, a = 0.5, dx;

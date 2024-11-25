@@ -7,10 +7,11 @@
 
 void main2_3() {
     setlocale(LC_ALL, "ru_RU");
-    double t, z;
 
-    printf("Введите t в пределах [0.5, 3]: ");
+    double t;
+
+    printf("Ввод: в пределах [0.5, 3] t = ");
     scanf_s("%lf", &t);
 
-    (0.5 <= t && t <= 3.0) ? ((t < a) ? printf("Результат: %lf", a * pow(t, 2.0) - b * pow(t + 1.0, 0.5)) : ((a <= t && t <= b) ? printf("Результат: %lf", a - b) : printf("Результат: %lf", a * pow(t, 2.0 / 3.0) - pow(t + 1.0, 1.0 / 3.0)))) : printf("Вы ввели t не в указанных пределах!");
+    (0.5 <= t && t <= 3.0) ? ((t < a) ? printf("Результат: z = %lf\n", a * pow(t, 2.0) - b * pow(t + 1.0, 0.5)) : ((a <= t && t <= b) ? printf("Результат: z = %lf\n", a - b) : printf("Результат: z = %lf\n", a * pow(t, 2.0 / 3.0) - pow(t + 1.0, 1.0 / 3.0)))) : printf("Вы ввели t не в указанных пределах!\n");
 }

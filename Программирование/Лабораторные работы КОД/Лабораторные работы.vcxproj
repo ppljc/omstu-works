@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.c" />
     <ClCompile Include="program1_1.c" />
     <ClCompile Include="program1_2.c" />
     <ClCompile Include="program2_1.c" />
@@ -26,10 +27,16 @@
     <ClCompile Include="program2_3.c" />
     <ClCompile Include="program3_1.c" />
     <ClCompile Include="program3_2.c" />
-    <ClCompile Include="program3_3.c" />
     <ClCompile Include="program4_1.c" />
     <ClCompile Include="program4_2.c" />
+<<<<<<< Updated upstream
     <ClCompile Include="program4_3.cpp" />
+=======
+    <ClCompile Include="program4_3.c" />
+    <ClCompile Include="program5_1.c" />
+    <ClCompile Include="program5_2.c" />
+    <ClCompile Include="program5_3.c" />
+>>>>>>> Stashed changes
     <ClCompile Include="program_test.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

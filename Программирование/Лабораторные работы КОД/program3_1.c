@@ -4,18 +4,16 @@
 
 void main3_1() {
     setlocale(LC_ALL, "ru_RU");
-    double x, y = 1.0;
 
-    printf("¬ведите значение X: ");
+    double x, y = 1.0, factorial = 1.0;
+
+    printf("¬вод: значение x = ");
     scanf_s("%lf", &x);
 
     for (int i = 1; i <= 10; i++) {
-        int factorial = 1;
-        for (int j = 2; j <= i; j++) {
-            factorial *= j;
-        }
+        factorial *= i;
         y += pow(x, 2 * i) / factorial;
     }
 
-    printf("–езультат Y = %.6f\n", y);
+    printf("–езультат: y = %.6f\n", y);
 }

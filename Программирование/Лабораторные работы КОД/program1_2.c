@@ -4,14 +4,15 @@
 
 void main1_2() {
     setlocale(LC_ALL, "ru_RU");
+
     int k, h, m, s;
 
-    printf("k = ");
-    scanf_s("%i", &k);
+    printf("¬вод: число прошедших секунд k = ");
+    scanf_s("%d", &k);
 
     h = k / 3600;
     m = (k - 3600 * h) / 60;
     s = (k - 3600 * h - 60 * m);
 
-    printf("h = %i, m = %i, s = %i", h, m, s);
+    printf("–езультат: прошло часов - %d, минут - %d, секунд - %d\n", h, m, s);
 }

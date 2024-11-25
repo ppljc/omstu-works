@@ -7,10 +7,13 @@
 
 void main1_1() {
     setlocale(LC_ALL, "ru_RU");
-    double x, x1 = 1.0, x2 = 2.0, y;
 
-    for (x = x1; x <= x2 + 0.1; x += 0.1) {
-        y = exp(-a * x) * cbrt(a * x + b * sin(2 * x));
-        printf("x = %f, y = %f\n", x, y);
-    }
+    double x, y;
+
+    printf("¬вод: x = ");
+    scanf_s("%lf", &x);
+
+    y = exp(-a * x) * cbrt(a * x + b * sin(2 * x));
+
+    printf("–езультат: y = %f\n", y);
 }

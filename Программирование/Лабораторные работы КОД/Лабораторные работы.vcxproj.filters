@@ -36,19 +36,35 @@
     <ClCompile Include="program3_2.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="program3_3.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="program4_1.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="program_test.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+<<<<<<< Updated upstream
     <ClCompile Include="program4_2.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="program4_3.cpp">
+=======
+    <ClCompile Include="main.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="program4_2.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="program4_3.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="program5_1.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="program5_2.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="program5_3.c">
+>>>>>>> Stashed changes
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

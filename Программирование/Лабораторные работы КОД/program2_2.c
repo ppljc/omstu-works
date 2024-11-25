@@ -3,10 +3,11 @@
 
 void main2_2() {
     setlocale(LC_ALL, "ru_RU");
+
     int a, c;
     const char* b = "ничего";
 
-    printf("¬ведите целое число: ");
+    printf("¬вод: целое число a = ");
     scanf_s("%d", &a);
     
     c = a % 5;
@@ -29,5 +30,5 @@ void main2_2() {
             break;
     }
 
-    printf("ќстаток от делени€ %d на 5: %s", a, b);
+    printf("–езультат: остаток от делени€ %d на 5 - %s\n", a, b);
 }

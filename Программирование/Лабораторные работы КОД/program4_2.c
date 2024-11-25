@@ -15,16 +15,28 @@ void main4_2() {
 
     printf("Таблица значений функций:\n");
     printf("---------------------------------------------\n");
+<<<<<<< Updated upstream
     printf("|    x    |        y       |        y2      |\n");
+=======
+    printf("|    x    |        y1       |        y2     |\n");
+>>>>>>> Stashed changes
     printf("---------------------------------------------\n");
 
     while (i < n) {
         x = i * step;
         y1 = 5 - 3 * cos(x);
         y2 = sqrt(1 + pow(sin(x), 2));
+<<<<<<< Updated upstream
         printf("| %7.3f | %14.6f |  %14.6f |\n", x, y1, y2);
+=======
+        printf("| %7.3f | %14.6f | %14.6f |\n", x, y1, y2);
+>>>>>>> Stashed changes
         i++;
     }
 
     printf("---------------------------------------------\n");
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
