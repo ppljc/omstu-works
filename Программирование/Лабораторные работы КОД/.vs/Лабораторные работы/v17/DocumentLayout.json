@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{769C4CF2-F7C8-4DF0-AB56-780DB82038B4}|\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B.vcxproj|C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program_test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{769C4CF2-F7C8-4DF0-AB56-780DB82038B4}|\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B.vcxproj|solutionrelative:program_test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{769C4CF2-F7C8-4DF0-AB56-780DB82038B4}|\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B.vcxproj|C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program4_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{769C4CF2-F7C8-4DF0-AB56-780DB82038B4}|\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B.vcxproj|solutionrelative:program4_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769C4CF2-F7C8-4DF0-AB56-780DB82038B4}|\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B.vcxproj|C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program4_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{769C4CF2-F7C8-4DF0-AB56-780DB82038B4}|\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B.vcxproj|solutionrelative:program4_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769C4CF2-F7C8-4DF0-AB56-780DB82038B4}|\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B.vcxproj|C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program4_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{769C4CF2-F7C8-4DF0-AB56-780DB82038B4}|\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B.vcxproj|solutionrelative:program4_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "program_test.c",
-              "DocumentMoniker": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program_test.c",
-              "RelativeDocumentMoniker": "program_test.c",
-              "ToolTip": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program_test.c",
-              "RelativeToolTip": "program_test.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-18T16:26:14.142Z",
+              "DocumentIndex": 2,
+              "Title": "program4_3.cpp",
+              "DocumentMoniker": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program4_3.cpp",
+              "RelativeDocumentMoniker": "program4_3.cpp",
+              "ToolTip": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program4_3.cpp",
+              "RelativeToolTip": "program4_3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T07:57:29.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "program4_2.c",
+              "DocumentMoniker": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program4_2.c",
+              "RelativeDocumentMoniker": "program4_2.c",
+              "ToolTip": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program4_2.c",
+              "RelativeToolTip": "program4_2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-21T07:51:32.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "program4_1.c",
               "DocumentMoniker": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program4_1.c",
               "RelativeDocumentMoniker": "program4_1.c",
               "ToolTip": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B \u041A\u041E\u0414\\program4_1.c",
               "RelativeToolTip": "program4_1.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-07T07:46:59.155Z",
               "EditorCaption": ""

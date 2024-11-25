@@ -45,5 +45,11 @@
     <ClCompile Include="program_test.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="program4_2.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="program4_3.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

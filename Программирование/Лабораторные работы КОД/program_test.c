@@ -4,7 +4,7 @@
 
 #define PI 3.14159265359
 
-int main() {
+int main0() {
     setlocale(LC_ALL, "RUS");
 
     float x, y, a = 0.5, dx;
