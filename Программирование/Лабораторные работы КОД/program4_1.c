@@ -2,11 +2,8 @@
 #include <stdio.h>
 #include <math.h>
 
-<<<<<<< Updated upstream
-void main() {
-=======
+
 void main4_1() {
->>>>>>> Stashed changes
     setlocale(LC_ALL, "ru_RU");
 
     double a, x = 1.0, z;

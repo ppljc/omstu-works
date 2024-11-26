@@ -29,15 +29,19 @@
     <ClCompile Include="program3_2.c" />
     <ClCompile Include="program4_1.c" />
     <ClCompile Include="program4_2.c" />
-<<<<<<< Updated upstream
-    <ClCompile Include="program4_3.cpp" />
-=======
     <ClCompile Include="program4_3.c" />
     <ClCompile Include="program5_1.c" />
     <ClCompile Include="program5_2.c" />
     <ClCompile Include="program5_3.c" />
->>>>>>> Stashed changes
-    <ClCompile Include="program_test.c" />
+    <ClCompile Include="program6_1.c" />
+    <ClCompile Include="program6_2.c" />
+    <ClCompile Include="program7_1.c" />
+    <ClCompile Include="program7_2.c" />
+    <ClCompile Include="program7_3.c" />
+    <ClCompile Include="program8_1.c" />
+    <ClCompile Include="program8_2.c" />
+    <ClCompile Include="program8_3.c" />
+    <ClCompile Include="program9_1.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

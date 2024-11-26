@@ -15,6 +15,17 @@ extern void main4_3();
 extern void main5_1();
 extern void main5_2();
 extern void main5_3();
+extern void main6_1_1();
+extern void main6_1_2();
+extern void main6_2();
+extern void main7_1();
+extern void main7_2();
+extern void main7_3();
+extern void main8_1();
+extern void main8_2();
+extern void main8_3();
+extern void main8_3();
+extern void main9_1();
 
 int main() {
     setlocale(LC_ALL, "ru_RU");
@@ -68,6 +79,36 @@ int main() {
                 break;
             case 53:
                 main5_3();
+                break;
+            case 611:
+                main6_1_1();
+                break;
+            case 612:
+                main6_1_2();
+                break;
+            case 62:
+                main6_2();
+                break;
+            case 71:
+                main7_1();
+                break;
+            case 72:
+                main7_2();
+                break;
+            case 73:
+                main7_3();
+                break;
+            case 81:
+                main8_1();
+                break;
+            case 82:
+                main8_2();
+                break;
+            case 83:
+                main8_3();
+                break;
+            case 91:
+                main9_1();
                 break;
             default:
                 printf("Неправильное значение.\n");
