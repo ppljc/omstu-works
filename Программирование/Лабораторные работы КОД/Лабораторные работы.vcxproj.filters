@@ -84,5 +84,8 @@
     <ClCompile Include="program9_1.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="program9_2.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

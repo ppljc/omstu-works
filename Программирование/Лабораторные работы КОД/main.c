@@ -26,6 +26,7 @@ extern void main8_2();
 extern void main8_3();
 extern void main8_3();
 extern void main9_1();
+extern void main9_2();
 
 int main() {
     setlocale(LC_ALL, "ru_RU");
@@ -109,6 +110,9 @@ int main() {
                 break;
             case 91:
                 main9_1();
+                break;
+            case 92:
+                main9_2();
                 break;
             default:
                 printf("Неправильное значение.\n");
