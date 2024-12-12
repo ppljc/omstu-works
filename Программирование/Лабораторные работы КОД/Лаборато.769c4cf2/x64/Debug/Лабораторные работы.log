@@ -1,3 +1,30 @@
-﻿  program9_2.c
-D:\Documents\ВУЗ\Программирование\Лабораторные работы КОД\program9_2.c(50,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Лабораторные работы.vcxproj -> D:\Documents\ВУЗ\Программирование\Лабораторные работы КОД\x64\Debug\Лабораторные работы.exe
+﻿  main.c
+  program1_1.c
+  program1_2.c
+  program2_1.c
+  program2_2.c
+  program2_3.c
+  program3_1.c
+  program3_2.c
+  program4_1.c
+  program4_2.c
+  program4_3.c
+  program5_1.c
+  program5_2.c
+  program5_3.c
+  program6_1.c
+  program6_2.c
+  program7_1.c
+  program7_2.c
+  program7_3.c
+  program8_1.c
+  Создание кода...
+  Компиляция...
+  program8_2.c
+  program8_3.c
+  program9_1.c
+  program9_2.c
+  Создание кода...
+C:\Users\Mi\Documents\ВУЗ\Программирование\Лабораторные работы КОД\program9_2.c(50,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  LINK : не найден или не выполнена сборка C:\Users\Mi\Documents\ВУЗ\Программирование\Лабораторные работы КОД\x64\Debug\Лабораторные работы.exe при последней инкрементной компоновке; выполняется полная компоновка
+  Лабораторные работы.vcxproj -> C:\Users\Mi\Documents\ВУЗ\Программирование\Лабораторные работы КОД\x64\Debug\Лабораторные работы.exe
