@@ -10,9 +10,9 @@
 void calculate_values(double values[3][n]) {
     double step = (b - a) / (n - 1);
     for (int i = 0; i < n; i++) {
-        values[0][i] = i * step; // x
-        values[1][i] = 5 - 3 * cos(values[0][i]); // y1
-        values[2][i] = sqrt(1 + pow(sin(values[0][i]), 2)); // y2
+        values[0][i] = i * step;
+        values[1][i] = 5 - 3 * cos(values[0][i]);
+        values[2][i] = sqrt(1 + pow(sin(values[0][i]), 2));
     }
 }
 
