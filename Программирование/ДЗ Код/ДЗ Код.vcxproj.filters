@@ -27,5 +27,8 @@
     <ClCompile Include="hw7_4.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="hw7_5.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

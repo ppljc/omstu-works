@@ -43,7 +43,7 @@ int binaryFloatAddition(int* mantissa1, int* mantissa2, int exp1, int exp2, int*
     return resultExp;
 }
 
-void printArray(const char* message, int* array, int size) {
+void printArray7_4(const char* message, int* array, int size) {
     printf("%s", message);
     for (int i = 0; i < size; i++) {
         printf("%d", array[i]);
@@ -51,7 +51,7 @@ void printArray(const char* message, int* array, int size) {
     printf("\n");
 }
 
-int main() {
+int main7_4() {
     setlocale(LC_ALL, "RU_ru");
 
     int mantissa1[] = { 1, 0, 1, 1, 0 };

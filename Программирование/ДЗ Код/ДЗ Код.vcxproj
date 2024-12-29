@@ -133,6 +133,7 @@
     <ClCompile Include="hw7_2.c" />
     <ClCompile Include="hw7_3.c" />
     <ClCompile Include="hw7_4.c" />
+    <ClCompile Include="hw7_5.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

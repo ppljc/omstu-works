@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\",
+  "WorkspaceRootPath": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C711EA77-BF97-4AF3-B522-66C432C85CED}|\u0414\u0417 \u041A\u043E\u0434.vcxproj|D:\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\hw7_4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C711EA77-BF97-4AF3-B522-66C432C85CED}|\u0414\u0417 \u041A\u043E\u0434.vcxproj|solutionrelative:hw7_4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C711EA77-BF97-4AF3-B522-66C432C85CED}|\u0414\u0417 \u041A\u043E\u0434.vcxproj|D:\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\hw7_3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C711EA77-BF97-4AF3-B522-66C432C85CED}|\u0414\u0417 \u041A\u043E\u0434.vcxproj|solutionrelative:hw7_3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C711EA77-BF97-4AF3-B522-66C432C85CED}|\u0414\u0417 \u041A\u043E\u0434.vcxproj|C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\hw7_5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C711EA77-BF97-4AF3-B522-66C432C85CED}|\u0414\u0417 \u041A\u043E\u0434.vcxproj|solutionrelative:hw7_5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "hw7_4.c",
-              "DocumentMoniker": "D:\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\hw7_4.c",
-              "RelativeDocumentMoniker": "hw7_4.c",
-              "ToolTip": "D:\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\hw7_4.c*",
-              "RelativeToolTip": "hw7_4.c*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Title": "hw7_5.c",
+              "DocumentMoniker": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\hw7_5.c",
+              "RelativeDocumentMoniker": "hw7_5.c",
+              "ToolTip": "C:\\Users\\Mi\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\hw7_5.c*",
+              "RelativeToolTip": "hw7_5.c*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-29T06:39:15.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "hw7_3.c",
-              "DocumentMoniker": "D:\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\hw7_3.c",
-              "RelativeDocumentMoniker": "hw7_3.c",
-              "ToolTip": "D:\\Documents\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u0417 \u041A\u043E\u0434\\hw7_3.c*",
-              "RelativeToolTip": "hw7_3.c*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-29T06:23:27.293Z",
+              "WhenOpened": "2024-12-29T17:52:50.011Z",
               "EditorCaption": ""
             }
           ]
