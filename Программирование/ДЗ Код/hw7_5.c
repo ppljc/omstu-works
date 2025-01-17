@@ -26,7 +26,7 @@ void printArray(const char* message, int* array, int size) {
     printf("\n");
 }
 
-int main() {
+int main7_5() {
     setlocale(LC_ALL, "RU_ru");
 
     int number[] = { 0, 1, 1, 0, 1 };

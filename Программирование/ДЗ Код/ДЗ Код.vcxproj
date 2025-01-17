@@ -127,6 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hw6_1.c" />
+    <ClCompile Include="hw6_2a.c" />
+    <ClCompile Include="hw6_2b.c" />
+    <ClCompile Include="hw6_4.cpp" />
     <ClCompile Include="hw7_1.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
     </ClCompile>
