@@ -1,31 +1,47 @@
-#define _CRT_SECURE_NO_WARNINGS
-
-#include <clocale>
 #include <iostream>
-#include <cstring>
-
+#include <string>
 using namespace std;
 
-void main10_2() {
-    setlocale(LC_ALL, "ru_RU");
-
-    char s[48];
-
-    cout << "¬ведите до 8 слов через зап€тую: ";
-    cin >> s;
-
-    char* a = strtok(s, ",.");
-    char* b = a;
-
-    while (a != NULL) {
-        int counter = 0;
-        while (b != NULL) {
-            if (a == b)
-                counter++;
-            b = strtok(NULL, ",.");
-        }
-        if (counter > 1) {
-            
+bool containsWord(const string words[], int size, const string& word) {
+    for (int i = 0; i < size; ++i) {
+        if (words[i] == word) {
+            return true;
         }
     }
+    return false;
+}
+
+void main10_2() {
+    string input;
+    cout << "¬ведите последовательность слов, разделенных зап€тыми, и завершите точкой: ";
+    cin.ignore();
+    getline(cin, input);
+
+    string uniqueWords[8];
+    int uniqueCount = 0;
+
+    string word;
+    int start = 0;
+
+    for (int i = 0; i < input.length(); ++i) {
+        if (input[i] == ',' || input[i] == '.') {
+            word = input.substr(start, i - start);
+
+            if (!containsWord(uniqueWords, uniqueCount, word)) {
+                uniqueWords[uniqueCount] = word;
+                uniqueCount++;
+            }
+
+            start = i + 1;
+        }
+    }
+
+    cout << "–езультат: ";
+    for (int i = 0; i < uniqueCount; ++i) {
+        cout << uniqueWords[i];
+        if (i < uniqueCount - 1) {
+            cout << ", ";
+        }
+    }
+    cout << "." << endl;
 }

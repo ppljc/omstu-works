@@ -1,29 +1,36 @@
-#include <clocale>
 #include <iostream>
-#include <cstring>
+#include <string>
+#include <locale>
 
 using namespace std;
 
-int count_sum(char s[], int l) {
-    int c = 0;
-
-    for (int i = 0; i < l; i++)
-        c += s[i];
-    
-    return c;
+int sumOfCodes(const string& word) {
+    int sum = 0;
+    for (char ch : word) {
+        sum += static_cast<int>(ch);
+    }
+    return sum;
 }
 
 void main10_1() {
     setlocale(LC_ALL, "ru_RU");
 
-    char s1[] = "SUM", s2[] = "ALFA";
-    int sum1 = 0, sum2 = 0;
+    string word1 = "SUM";
+    string word2 = "ALFA";
 
-    sum1 = count_sum(s1, 3);
-    sum2 = count_sum(s2, 4);
+    int sum1 = sumOfCodes(word1);
+    int sum2 = sumOfCodes(word2);
 
-    if (sum1 > sum2)
-        cout << "Сумма кодов SUM больше: " << sum1 << endl;
-    else
-        cout << "Сумма кодов ALFA больше: " << sum2 << endl;
+    cout << "Сумма ASCII-кодов слова " << word1 << ": " << sum1 << endl;
+    cout << "Сумма ASCII-кодов слова " << word2 << ": " << sum2 << endl;
+
+    if (word1 > word2) {
+        cout << word1 << " больше, чем " << word2 << endl;
+    }
+    else if (word1 < word2) {
+        cout << word1 << " меньше, чем " << word2 << endl;
+    }
+    else {
+        cout << word1 << " и " << word2 << " равны" << endl;
+    }
 }
