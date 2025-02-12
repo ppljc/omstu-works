@@ -20,17 +20,24 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="module13_1.cpp" />
+    <ClCompile Include="module13_3.cpp" />
     <ClCompile Include="program10_1.cpp" />
     <ClCompile Include="program10_2.cpp" />
     <ClCompile Include="program11_1.cpp" />
     <ClCompile Include="program11_2.cpp" />
     <ClCompile Include="program12_1.cpp" />
+    <ClCompile Include="program12_2.cpp" />
+    <ClCompile Include="program13_1.cpp" />
+    <ClCompile Include="program13_3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="D1.txt" />
     <Text Include="D2.txt" />
     <Text Include="input.txt" />
     <Text Include="output.txt" />
+    <Text Include="program12_2-output.txt" />
+    <Text Include="program12_2-input.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

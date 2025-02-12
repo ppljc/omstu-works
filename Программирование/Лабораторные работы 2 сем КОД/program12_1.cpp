@@ -5,13 +5,13 @@
 
 using namespace std;
 
-struct CType {
+struct Types {
     string name;
     string operations[MAX_OPS];
     int opCount;
 };
 
-struct OperationToTypes {
+struct Operation {
     string operation;
     string types[MAX_TYPES];
     int typeCount;
@@ -20,7 +20,7 @@ struct OperationToTypes {
 void main12_1() {
     setlocale(LC_ALL, "ru_RU");
 
-    CType types[MAX_TYPES] = {
+    Types types[MAX_TYPES] = {
         {"int", {"+", "-", "*", "/", "%", "++", "--", "==", "!=", "="}, 10},
         {"double", {"+", "-", "*", "/", "++", "--", "==", "!=", "="}, 9},
         {"char", {"+", "-", "++", "--", "==", "!=", "="}, 7},
@@ -29,7 +29,7 @@ void main12_1() {
         {"float", {"+", "-", "*", "/", "++", "--", "==", "!=", "="}, 9}
     };
 
-    OperationToTypes operationsList[MAX_OPS * MAX_TYPES];
+    Operation operationsList[MAX_OPS * MAX_TYPES];
     int operationCount = 0;
 
     for (int i = 0; i < MAX_TYPES; i++) {
