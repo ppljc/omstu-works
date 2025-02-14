@@ -2,64 +2,34 @@
 
 using namespace std;
 
-extern int A[4][4];
-extern int B[4][4];
+const int SIZE = 4;
 
-void processMatrix(int matrix[4][4], int& sumAbove, int& sumBelow) {
-    int temp[4][4];
+struct ShiftResult {
+    int sum_above;
+    int sum_below;
+};
 
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 4; j++) {
-            if (j < 2)
-                temp[i][j] = 0;
-            else
-                temp[i][j] = matrix[i][j - 2];
+ShiftResult shift_matrix(int matrix[SIZE][SIZE]) {
+    ShiftResult result = { 0, 0 };
+
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = SIZE - 1; j >= 2; j--) {
+            matrix[i][j] = matrix[i][j - 2];
+        }
+        matrix[i][0] = 0;
+        matrix[i][1] = 0;
+    }
+
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            if (j > i) {
+                result.sum_above += matrix[i][j];
+            }
+            else if (j < i) {
+                result.sum_below += matrix[i][j];
+            }
         }
     }
 
-    sumAbove = 0;
-    sumBelow = 0;
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 4; j++) {
-            if (i < j)
-                sumAbove += temp[i][j];
-            else if (i > j)
-                sumBelow += temp[i][j];
-        }
-    }
-
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 4; j++) {
-            matrix[i][j] = temp[i][j];
-        }
-    }
-}
-
-void module13_3() {
-    int sumAboveA, sumBelowA;
-    int sumAboveB, sumBelowB;
-
-    processMatrix(A, sumAboveA, sumBelowA);
-    
-    cout << "\nНовый массив A после сдвига:\n";
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 4; j++) {
-            cout << A[i][j] << "\t";
-        }
-        cout << "\n";
-    }
-    cout << "Сумма элементов выше главной диагонали массива A: " << sumAboveA << "\n";
-    cout << "Сумма элементов ниже главной диагонали массива A: " << sumBelowA << "\n";
-
-    processMatrix(B, sumAboveB, sumBelowB);
-    
-    cout << "\nНовый массив B после сдвига:\n";
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 4; j++) {
-            cout << B[i][j] << "\t";
-        }
-        cout << "\n";
-    }
-    cout << "Сумма элементов выше главной диагонали массива B: " << sumAboveB << "\n";
-    cout << "Сумма элементов ниже главной диагонали массива B: " << sumBelowB << "\n";
+    return result;
 }

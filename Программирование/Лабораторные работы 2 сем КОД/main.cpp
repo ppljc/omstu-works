@@ -9,7 +9,12 @@ extern void main11_1();
 extern void main11_2();
 extern void main12_1();
 extern void main12_2();
+extern void main12_3();
 extern void main13_1();
+extern void main13_2();
+extern void main13_3();
+extern void main14_1();
+extern void main14_2();
 
 int main() {
     setlocale(LC_ALL, "ru_RU");
@@ -43,8 +48,23 @@ int main() {
             case 122:
                 main12_2();
                 break;
+            case 123:
+                main12_3();
+                break;
             case 131:
                 main13_1();
+                break;
+            case 132:
+                main13_2();
+                break;
+            case 133:
+                main13_3();
+                break;
+            case 141:
+                main14_1();
+                break;
+            case 142:
+                main14_2();
                 break;
             default:
                 cout << "Неправильное значение." << endl;

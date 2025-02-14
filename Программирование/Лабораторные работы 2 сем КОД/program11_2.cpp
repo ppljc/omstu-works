@@ -1,53 +1,48 @@
 #include <iostream>
-#include <fstream>
-#include <locale>
-#define MAX_N 100
+#include <string>
 
 using namespace std;
 
-void readMatrix(ifstream& inputFile, double matrix[MAX_N][MAX_N], int n) {
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            inputFile >> matrix[i][j];
+bool containsWord(const string words[], int size, const string& word) {
+    for (int i = 0; i < size; ++i) {
+        if (words[i] == word) {
+            return true;
         }
     }
-}
-
-void printMatrix(ofstream& outfile, double matrix[MAX_N][MAX_N], int n) {
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            outfile << matrix[i][j] << " ";
-        }
-        outfile << endl;
-    }
-    outfile << endl;
+    return false;
 }
 
 void main11_2() {
-    setlocale(LC_ALL, "ru_RU");
+    string input;
+    cout << "Введите последовательность слов, разделенных запятыми, и завершите точкой: ";
+    cin.ignore();
+    getline(cin, input);
 
-    ifstream inputFile("D1.txt");
-    ofstream outputFile("D2.txt");
+    string uniqueWords[8];
+    int uniqueCount = 0;
 
-    int n;
-    inputFile >> n;
+    string word;
+    int start = 0;
 
-    double matrix[MAX_N][MAX_N];
+    for (int i = 0; i < input.length(); ++i) {
+        if (input[i] == ',' || input[i] == '.') {
+            word = input.substr(start, i - start);
 
-    readMatrix(inputFile, matrix, n);
+            if (!containsWord(uniqueWords, uniqueCount, word)) {
+                uniqueWords[uniqueCount] = word;
+                uniqueCount++;
+            }
 
-    outputFile << "Исходная матрица:" << endl;
-    printMatrix(outputFile, matrix, n);
-
-    for (int j = 0; j < n; j++) {
-        swap(matrix[0][j], matrix[n - 1][j]);
+            start = i + 1;
+        }
     }
 
-    outputFile << "Обработанная матрица:" << endl;
-    printMatrix(outputFile, matrix, n);
-
-    inputFile.close();
-    outputFile.close();
-
-    cout << "Результат в D2.txt" << endl;
+    cout << "Результат: ";
+    for (int i = 0; i < uniqueCount; ++i) {
+        cout << uniqueWords[i];
+        if (i < uniqueCount - 1) {
+            cout << ", ";
+        }
+    }
+    cout << "." << endl;
 }

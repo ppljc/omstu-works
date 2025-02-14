@@ -1,47 +1,45 @@
 #include <iostream>
-#include <string>
+#include <fstream>
+#include <locale>
+
 using namespace std;
 
-bool containsWord(const string words[], int size, const string& word) {
-    for (int i = 0; i < size; ++i) {
-        if (words[i] == word) {
-            return true;
-        }
-    }
-    return false;
-}
+const int MAX_SIZE = 100;
 
 void main10_2() {
-    string input;
-    cout << "Введите последовательность слов, разделенных запятыми, и завершите точкой: ";
-    cin.ignore();
-    getline(cin, input);
+    setlocale(LC_ALL, "ru_RU");
 
-    string uniqueWords[8];
-    int uniqueCount = 0;
+    ifstream fin("D1.txt");
+    ofstream fout("D2.txt");
 
-    string word;
-    int start = 0;
+    int n;
+    fin >> n;
 
-    for (int i = 0; i < input.length(); ++i) {
-        if (input[i] == ',' || input[i] == '.') {
-            word = input.substr(start, i - start);
+    double matrix[MAX_SIZE][MAX_SIZE];
 
-            if (!containsWord(uniqueWords, uniqueCount, word)) {
-                uniqueWords[uniqueCount] = word;
-                uniqueCount++;
-            }
-
-            start = i + 1;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            fin >> matrix[i][j];
         }
     }
 
-    cout << "Результат: ";
-    for (int i = 0; i < uniqueCount; ++i) {
-        cout << uniqueWords[i];
-        if (i < uniqueCount - 1) {
-            cout << ", ";
-        }
+    for (int j = 0; j < n; j++) {
+        double tmp = matrix[0][j];
+        matrix[0][j] = matrix[n - 1][j];
+        matrix[n - 1][j] = tmp;
     }
-    cout << "." << endl;
+
+    fout << n << endl;
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            fout << matrix[i][j] << " ";
+        }
+        fout << endl;
+    }
+
+    fin.close();
+    fout.close();
+
+    cout << "Результат в D2.txt" << endl;
 }
