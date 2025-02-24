@@ -24,10 +24,10 @@ void main11_1() {
     cout << "Сумма кодов букв слова " << word1 << " = " << sum1 << endl;
     cout << "Сумма кодов букв слова " << word2 << " = " << sum2 << endl << endl;
 
-    if (word1 > word2) {
+    if (sum1 > sum2) {
         cout << "Слово " << word1 << " больше." << endl;
     }
-    else if (word1 < word2) {
+    else if (sum1 < sum2) {
         cout << "Слово " << word2 << " больше." << endl;
     }
     else {
