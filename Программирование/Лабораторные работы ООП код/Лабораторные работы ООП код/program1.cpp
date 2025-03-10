@@ -6,6 +6,7 @@ using namespace std;
 
 extern int main1_1(vector<int> v);
 extern int main1_2(vector<int> v);
+extern int main1_3(vector<int> v);
 
 int main1() {
 	setlocale(LC_ALL, "ru_RU");
@@ -35,6 +36,10 @@ int main1() {
 	cout << "Вариант - 2:\n" <<
 		"enum Boolean { false_, true_ };\n\n";
 	main1_2(v);
+
+	cout << "Вариант - 3:\n" <<
+		"class Boolean {};\n\n";
+	main1_3(v);
 
 	return 0;
 }
