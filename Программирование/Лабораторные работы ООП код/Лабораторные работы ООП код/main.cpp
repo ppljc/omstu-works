@@ -6,6 +6,7 @@ using namespace std;
 extern int main1();
 extern int main2();
 extern int main3();
+extern int main4();
 
 int main() {
     setlocale(LC_ALL, "ru_RU");
@@ -29,6 +30,9 @@ int main() {
             break;
         case 3:
             main3();
+            break;
+        case 4:
+            main4();
             break;
         default:
             cout << "Неправильное значение." << endl;
