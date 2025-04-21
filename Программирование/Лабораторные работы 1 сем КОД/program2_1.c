@@ -10,16 +10,16 @@ void main2_1() {
 
     double t, z;
 
-    printf("¬вод: в пределах [0.5, 3] t = ");
+    printf("¬вод: в пределах [0.5, 8] t = ");
     scanf_s("%lf", &t);
 
-    if (0.5 <= t && t <= 3.0) {
+    if (0.5 <= t && t <= 8.0) {
         if (t < a)
             z = a * pow(t, 2.0) - b * pow(t + 1.0, 0.5);
         else if (a <= t && t <= b)
             z = a - b;
-        else // такого при текущих исходных данных не может быть
-            z = a * pow(t, 2.0 / 3.0) - pow(t + 1.0, 1.0 / 3.0);
+        else
+            z = a * pow(t, 2.0 / 3.0) - pow(t + a, 1.0 / 3.0);
         printf("–езультат: z = %lf\n", z);
     }
     else
