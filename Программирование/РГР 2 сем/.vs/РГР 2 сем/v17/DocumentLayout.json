@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tony_\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\vuz\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0420\u0413\u0420 2 \u0441\u0435\u043C\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\tony_\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0420\u0413\u0420 2 \u0421\u0435\u043C\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5530088F-BC22-4FDA-81C9-8ECA9F8048FD}|\u0420\u0413\u0420 2 \u0421\u0435\u043C.vcxproj|C:\\Users\\tony_\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0420\u0413\u0420 2 \u0421\u0435\u043C\\equation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5530088F-BC22-4FDA-81C9-8ECA9F8048FD}|\u0420\u0413\u0420 2 \u0421\u0435\u043C.vcxproj|solutionrelative:equation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "equation.cpp",
+              "DocumentMoniker": "C:\\Users\\tony_\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0420\u0413\u0420 2 \u0421\u0435\u043C\\equation.cpp",
+              "RelativeDocumentMoniker": "equation.cpp",
+              "ToolTip": "C:\\Users\\tony_\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0412\u0423\u0417\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0420\u0413\u0420 2 \u0421\u0435\u043C\\equation.cpp",
+              "RelativeToolTip": "equation.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-10T14:13:02.228Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
