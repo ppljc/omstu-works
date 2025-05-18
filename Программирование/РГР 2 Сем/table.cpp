@@ -5,26 +5,22 @@ void ShowTable(HWND hwnd) {
     RECT window;
     GetClientRect(hwnd, &window);
 
-    // Очищаем экран черным цветом
     FillRect(hdc, &window, (HBRUSH)GetStockObject(BLACK_BRUSH));
 
-    // Настройки шрифта (моноширинный для ровных столбцов)
     HFONT hFont = CreateFont(24, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE,
         DEFAULT_CHARSET, OUT_DEFAULT_PRECIS,
         CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY,
         DEFAULT_PITCH, L"Courier New");
     SelectObject(hdc, hFont);
-    SetBkMode(hdc, TRANSPARENT); // Прозрачный фон текста
+    SetBkMode(hdc, TRANSPARENT);
 
-    // Заголовок таблицы (белый текст)
     SetTextColor(hdc, RGB(255, 255, 255));
     TextOutA(hdc, window.right / 2 - 300, 50, "Таблица значений функций:", 24);
     TextOutA(hdc, window.right / 2 - 300, 80, "y1 = 5 - 3*cos(x)", 17);
     TextOutA(hdc, window.right / 2 - 300, 110, "y2 = sqrt(1 + sin(x)^2)", 23);
     TextOutA(hdc, window.right / 2 - 300, 140, "Интервал: [0, 2Pi], шагов: 20", 30);
 
-    // Параметры таблицы
-    const int rows = 21; // 20 шагов + заголовок
+    const int rows = 21;
     const int cols = 4;
     const int cellWidth = 150;
     const int cellHeight = 30;
@@ -33,11 +29,9 @@ void ShowTable(HWND hwnd) {
     const int tableX = (window.right - tableWidth) / 2;
     const int tableY = 180;
 
-    // Закрашиваем область таблицы черным цветом
     RECT tableRect = { tableX, tableY, tableX + tableWidth, tableY + tableHeight };
     FillRect(hdc, &tableRect, (HBRUSH)GetStockObject(BLACK_BRUSH));
 
-    // Вычисляем значения функций
     struct TableData {
         int step;
         double x;
@@ -60,13 +54,11 @@ void ShowTable(HWND hwnd) {
         if (data[i].y2 > maxY2) maxY2 = data[i].y2;
     }
 
-    // Рисуем таблицу с черным фоном и белыми границами
     HPEN hWhitePen = CreatePen(PS_SOLID, 1, RGB(255, 255, 255));
     HPEN hOldPen = (HPEN)SelectObject(hdc, hWhitePen);
 
     for (int row = 0; row < rows; row++) {
         for (int col = 0; col < cols; col++) {
-            // Границы ячеек
             RECT cell = {
                 tableX + col * cellWidth,
                 tableY + row * cellHeight,
@@ -74,24 +66,20 @@ void ShowTable(HWND hwnd) {
                 tableY + (row + 1) * cellHeight
             };
 
-            // Закрашиваем ячейку черным цветом
             FillRect(hdc, &cell, (HBRUSH)GetStockObject(BLACK_BRUSH));
 
-            // Рисуем границы (белые линии)
             MoveToEx(hdc, cell.left, cell.top, NULL);
             LineTo(hdc, cell.right, cell.top);
             LineTo(hdc, cell.right, cell.bottom);
             LineTo(hdc, cell.left, cell.bottom);
             LineTo(hdc, cell.left, cell.top);
 
-            // Заполняем заголовки
             if (row == 0) {
                 SetTextColor(hdc, RGB(255, 255, 255));
                 const char* headers[] = { "Шаг", "X", "y1", "y2" };
                 TextOutA(hdc, cell.left + 10, cell.top + 5, headers[col], (int)strlen(headers[col]));
             }
             else {
-                // Заполняем данные
                 TableData& item = data[row - 1];
                 ostringstream oss;
                 oss << fixed << setprecision(4);
@@ -132,23 +120,17 @@ void ShowTable(HWND hwnd) {
         }
     }
 
-    // Восстанавливаем перо
     SelectObject(hdc, hOldPen);
     DeleteObject(hWhitePen);
 
-    // Подписи под таблицей
     SetTextColor(hdc, RGB(255, 0, 0));
-    TextOutA(hdc, tableX, tableY + rows * cellHeight + 20, "Красный - максимальное значение", 31);
+    TextOutA(hdc, tableX, tableY + rows * cellHeight + 20, "Красный - максимум", 18);
     SetTextColor(hdc, RGB(0, 0, 255));
-    TextOutA(hdc, tableX, tableY + rows * cellHeight + 50, "Синий - минимальное значение", 28);
+    TextOutA(hdc, tableX, tableY + rows * cellHeight + 50, "Синий - минимум", 15);
 
-    // Освобождаем ресурсы
     SelectObject(hdc, hOldPen);
     DeleteObject(hFont);
     ReleaseDC(hwnd, hdc);
 
-    // Ожидаем Esc
-    while (!(GetAsyncKeyState(VK_ESCAPE) & 0x8000)) {
-        Sleep(100);
-    }
+    while (!(GetAsyncKeyState(VK_ESCAPE) & 0x8000)) Sleep(100);
 }
