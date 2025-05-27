@@ -42,7 +42,7 @@ void ShowIntro(HWND hwnd) {
         }
 
         for (int i = 0; i < 10; i++) {
-            float currentAngle = angle + i * (2 * 3.14159f / 6);
+            float currentAngle = angle + i * (2 * M_PI / 6);
             int distance = (100 + i * 30) * scale * distanceMultiplier;
 
             int x = centerX + distance * 1.5f * cos(currentAngle);

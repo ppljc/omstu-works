@@ -29,9 +29,6 @@ void ShowTable(HWND hwnd) {
     const int tableX = (window.right - tableWidth) / 2;
     const int tableY = 180;
 
-    RECT tableRect = { tableX, tableY, tableX + tableWidth, tableY + tableHeight };
-    FillRect(hdc, &tableRect, (HBRUSH)GetStockObject(BLACK_BRUSH));
-
     struct TableData {
         int step;
         double x;
@@ -65,8 +62,6 @@ void ShowTable(HWND hwnd) {
                 tableX + (col + 1) * cellWidth,
                 tableY + (row + 1) * cellHeight
             };
-
-            FillRect(hdc, &cell, (HBRUSH)GetStockObject(BLACK_BRUSH));
 
             MoveToEx(hdc, cell.left, cell.top, NULL);
             LineTo(hdc, cell.right, cell.top);
@@ -128,7 +123,6 @@ void ShowTable(HWND hwnd) {
     SetTextColor(hdc, RGB(0, 0, 255));
     TextOutA(hdc, tableX, tableY + rows * cellHeight + 50, "Синий - минимум", 15);
 
-    SelectObject(hdc, hOldPen);
     DeleteObject(hFont);
     ReleaseDC(hwnd, hdc);
 

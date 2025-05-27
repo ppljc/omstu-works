@@ -51,7 +51,7 @@ void DrawMenu(HWND hwnd, int selected) {
             SelectObject(hdc, hNormalFont);
         }
 
-        TextOutA(hdc, menuLeft + 10, menuTop + i * itemHeight + 8, menuItems[i], strlen(menuItems[i]));
+        TextOutA(hdc, menuLeft + 10, menuTop + i * itemHeight + 8, menuItems[i], (int)strlen(menuItems[i]));
     }
 
     DeleteObject(hNormalFont);
